@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code, User, Briefcase, GraduationCap, MapPin, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, User, Briefcase, GraduationCap, MapPin, Phone } from 'lucide-react';
 import { useGitHubProjects } from './hooks/useGitHubProjects';
 import { ProjectCard } from './components/ProjectCard';
 import { LoadingSpinner } from './components/LoadingSpinner';
@@ -57,7 +57,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e experiências digitais excepcionais
+                Desenvolvedor apaixonado por criar soluções inovadoras e experiências digitais.
               </p>
             </div>
             
@@ -72,7 +72,7 @@ function App() {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/joao-fernandes"
+                href="https://linkedin.com/in/joaofernandessr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
@@ -81,7 +81,7 @@ function App() {
                 LinkedIn
               </a>
               <a
-                href="mailto:joao@email.com"
+                href="mailto:joaofernandesrodrigues78@gmail.com"
                 className="inline-flex items-center px-6 py-3 border-2 border-gray-300 text-base font-medium rounded-full text-gray-700 bg-white hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 <Mail className="w-5 h-5 mr-2" />
@@ -92,8 +92,8 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <Briefcase className="w-8 h-8 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">3+ Anos</h3>
-                <p className="text-gray-600">Experiência em Desenvolvimento</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">3 Anos</h3>
+                <p className="text-gray-600">Experiência</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <Code className="w-8 h-8 text-green-600 mx-auto mb-4" />
@@ -103,7 +103,7 @@ function App() {
               <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <GraduationCap className="w-8 h-8 text-purple-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Formação</h3>
-                <p className="text-gray-600">Ciência da Computação</p>
+                <p className="text-gray-600">Análise e Desenv. de Sistemas</p>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Sobre Mim</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Desenvolvedor apaixonado por tecnologia com foco em criar soluções eficientes e elegantes
+              Um desenvolvedor comunicativo e ágil, com grande disposição para aprender e me adaptar rapidamente a novos desafios.
             </p>
           </div>
           
@@ -124,59 +124,32 @@ function App() {
             <div>
               <div className="prose prose-lg text-gray-600">
                 <p className="text-lg leading-relaxed mb-6">
-                  Sou um desenvolvedor full stack com mais de 3 anos de experiência criando aplicações web e mobile 
-                  modernas. Tenho paixão por código limpo, arquiteturas escaláveis e sempre busco estar atualizado 
-                  com as mais recentes tecnologias do mercado.
+                  Com 3 anos de experiência na área de tecnologia, sou um profissional que busca constantemente por novos conhecimentos e formas de agregar valor. Minha formação em Análise e Desenvolvimento de Sistemas me proporciona uma base sólida para a criação de soluções eficientes.
                 </p>
                 <p className="text-lg leading-relaxed mb-6">
-                  Minha jornada na programação começou com curiosidade e evoluiu para uma carreira dedicada a 
-                  resolver problemas complexos através da tecnologia. Acredito no poder da colaboração e do 
-                  aprendizado contínuo.
+                  Tenho facilidade para trabalhar em equipe, seguir padrões de desenvolvimento e manter um ambiente de trabalho organizado e produtivo. Sou acostumado a trabalhar sob pressão, entregando resultados de alta qualidade.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Quando não estou codificando, gosto de contribuir para projetos open source, escrever artigos 
-                  técnicos e explorar novas ferramentas que possam melhorar minha produtividade.
+                  Busco oportunidades para crescer profissionalmente e utilizar minhas habilidades para contribuir com o sucesso de projetos e equipes.
                 </p>
               </div>
             </div>
             
             <div className="space-y-6">
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-2xl">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Especialidades</h3>
-                <ul className="space-y-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Formação</h3>
+                 <ul className="space-y-2">
                   <li className="flex items-center text-gray-700">
                     <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                    Desenvolvimento Frontend (React, Vue, Angular)
+                    Análise e Desenvolvimento de Sistemas (2023-2025)
                   </li>
                   <li className="flex items-center text-gray-700">
                     <span className="w-2 h-2 bg-green-600 rounded-full mr-3"></span>
-                    Desenvolvimento Backend (Node.js, Python, Java)
+                    Técnico em Administração (2022-2023)
                   </li>
                   <li className="flex items-center text-gray-700">
                     <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                    Bancos de Dados (MongoDB, PostgreSQL, MySQL)
-                  </li>
-                  <li className="flex items-center text-gray-700">
-                    <span className="w-2 h-2 bg-orange-600 rounded-full mr-3"></span>
-                    DevOps e Cloud (AWS, Docker, Kubernetes)
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-2xl">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Certificações</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-gray-700">
-                    <span className="w-2 h-2 bg-green-600 rounded-full mr-3"></span>
-                    AWS Certified Developer
-                  </li>
-                  <li className="flex items-center text-gray-700">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                    Google Cloud Professional
-                  </li>
-                  <li className="flex items-center text-gray-700">
-                    <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                    MongoDB Certified Developer
+                    Técnico em Marketing Digital (2020-2022)
                   </li>
                 </ul>
               </div>
@@ -280,7 +253,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email</h3>
-                    <p className="text-blue-200">joao@email.com</p>
+                    <p className="text-blue-200">joaofernandesrodrigues78@gmail.com</p>
                   </div>
                 </div>
                 
@@ -290,7 +263,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Telefone</h3>
-                    <p className="text-blue-200">+55 (11) 99999-9999</p>
+                    <p className="text-blue-200">+55 (89) 99982-4037</p>
                   </div>
                 </div>
                 
@@ -300,7 +273,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Localização</h3>
-                    <p className="text-blue-200">São Paulo, SP - Brasil</p>
+                    <p className="text-blue-200">Picos, PI - Brasil</p>
                   </div>
                 </div>
               </div>
@@ -380,7 +353,7 @@ function App() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/joao-fernandes"
+                href="https://linkedin.com/in/joaofernandessr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
@@ -388,7 +361,7 @@ function App() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="mailto:joao@email.com"
+                href="mailto:joaofernandesrodrigues78@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
               >
                 <Mail className="w-6 h-6" />
